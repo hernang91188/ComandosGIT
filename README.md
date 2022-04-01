@@ -1,1 +1,2 @@
 # ComandosGIT
+COMANDOS GIT PARA USAR
