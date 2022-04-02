@@ -10,11 +10,10 @@ git config --global user.email 'hernang9188@gmail.com'
 git add archivo.xml //agrega el archivo.xml a staging area. git add *.*  //agrega el directorio entero a staging area
 git status //muestra el archivo en staging area y archivos no trackeados
 git rm --cached archivo.xml (remueve el archivo de staging area)
-git commit -m 'comentario'
+git commit -m 'comentario' //commitea los cambios en staging a la rama en la q estemos parados
 //se creamos en archivo .gitignore y agregamos ahi nombres de archivos, git no los tiene en cuenta al evaluar cambios
 git branch nombreDelBranch //crea una ramma nueva  
 git checkout nombreDelBranch//nos paramos en ese branch
-git merge nombreDelBranch //parados en la rama de destino
-git push -u origin master //pushea a la web los cambios de la rama 
+git merge nombreDelBranch //parados en la rama de destino, mergea los cambios de nombreDelBranch a la rama en la q estamos parados 
 git push -u origin nombreDelBranch //pushea a la web los cambios de la rama nombreDelBranch
 git log //muestra el log de commits para la rama en la q estoy parado
