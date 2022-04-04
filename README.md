@@ -15,5 +15,8 @@ git commit -m 'comentario' //commitea los cambios en staging a la rama en la q e
 git branch nombreDelBranch //crea una ramma nueva  
 git checkout nombreDelBranch//nos paramos en ese branch
 git merge nombreDelBranch //parados en la rama de destino, mergea los cambios de nombreDelBranch a la rama en la q estamos parados 
-git push -u origin nombreDelBranch //pushea a la web los cambios de la rama nombreDelBranch
+git push -u origin nombreDelBranch //pushea a la web los cambios de la rama nombreDelBranch (hay q estar parado en la rama a pushear para hacerlo)
 git log //muestra el log de commits para la rama en la q estoy parado
+
+git branch -d localBranchName// delete branch locally
+git push origin --delete remoteBranchName // delete branch remotely
